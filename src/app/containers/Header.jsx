@@ -192,10 +192,10 @@ const Header = function (props) {
               </Link>
               <Link
                 className="nav-link"
-                to="/management/trivia"
+                to="/management/ranks"
               >
                 <MenuItem onClick={handleCloseManagement}>
-                  Trivia
+                  Ranks
                 </MenuItem>
               </Link>
               <Link
@@ -268,94 +268,6 @@ const Header = function (props) {
               >
                 <MenuItem onClick={handleCloseFunctions}>
                   Errors
-                </MenuItem>
-              </Link>
-              <Link
-                className="nav-link"
-                to="/functions/tips"
-              >
-                <MenuItem onClick={handleCloseFunctions}>
-                  Tips
-                </MenuItem>
-              </Link>
-              <Link
-                className="nav-link"
-                to="/functions/rains"
-              >
-                <MenuItem onClick={handleCloseFunctions}>
-                  Rains
-                </MenuItem>
-              </Link>
-              <Link
-                className="nav-link"
-                to="/functions/soaks"
-              >
-                <MenuItem onClick={handleCloseFunctions}>
-                  Soaks
-                </MenuItem>
-              </Link>
-              <Link
-                className="nav-link"
-                to="/functions/floods"
-              >
-                <MenuItem onClick={handleCloseFunctions}>
-                  Floods
-                </MenuItem>
-              </Link>
-              <Link
-                className="nav-link"
-                to="/functions/sleets"
-              >
-                <MenuItem onClick={handleCloseFunctions}>
-                  Sleets
-                </MenuItem>
-              </Link>
-              <Link
-                className="nav-link"
-                to="/functions/voicerains"
-              >
-                <MenuItem onClick={handleCloseFunctions}>
-                  Voicerains
-                </MenuItem>
-              </Link>
-              <Link
-                className="nav-link"
-                to="/functions/thunders"
-              >
-                <MenuItem onClick={handleCloseFunctions}>
-                  Thunders
-                </MenuItem>
-              </Link>
-              <Link
-                className="nav-link"
-                to="/functions/thunderstorms"
-              >
-                <MenuItem onClick={handleCloseFunctions}>
-                  Thunderstorms
-                </MenuItem>
-              </Link>
-              <Link
-                className="nav-link"
-                to="/functions/hurricanes"
-              >
-                <MenuItem onClick={handleCloseFunctions}>
-                  Hurricanes
-                </MenuItem>
-              </Link>
-              <Link
-                className="nav-link"
-                to="/functions/reactdrops"
-              >
-                <MenuItem onClick={handleCloseFunctions}>
-                  Reactdrops
-                </MenuItem>
-              </Link>
-              <Link
-                className="nav-link"
-                to="/functions/trivias"
-              >
-                <MenuItem onClick={handleCloseFunctions}>
-                  Trivias
                 </MenuItem>
               </Link>
             </Menu>

@@ -38,6 +38,8 @@ import withdrawalAddress from './withdrawalAddress';
 import botFunctions from './botFunctions';
 import botFunction from './botFunction';
 
+import ranks from './ranks';
+
 const store = configureStore({
   reducer: {
     form,
@@ -79,6 +81,8 @@ const store = configureStore({
 
     botFunctions,
     botFunction,
+
+    ranks,
   },
 })
 
