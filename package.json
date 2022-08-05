@@ -12,7 +12,15 @@
     "test:watch": "npm run test -- --watch",
     "lint": "eslint src test webpack",
     "lint:fix": "eslint src test webpack --fix --ext .js,.jsx .",
-    "fix-js": "eslint-auto-fix"
+    "fix-js": "eslint-auto-fix",
+    "standard-version": "git add . && standard-version --commit-all",
+    "pre-release:minor": "git add . && standard-version --commit-all --release-as minor",
+    "pre-release:patch": "git add . && standard-version --commit-all --release-as patch",
+    "pre-release:major": "git add . && standard-version --commit-all --release-as major",
+    "release": "npm-run-all build standard-version",
+    "release:minor": "npm-run-all build pre-release:minor",
+    "release:patch": "npm-run-all build pre-release:patch",
+    "release:major": "npm-run-all build pre-release:major"
   },
   "keywords": [
     "MySQL",
@@ -76,6 +84,7 @@
     "react-hot-loader": "^4.13.0",
     "sass-loader": "^12.6.0",
     "source-map-loader": "^3.0.1",
+    "standard-version": "^9.5.0",
     "stream-browserify": "^3.0.0",
     "stream-http": "^3.2.0",
     "style-loader": "^3.3.1",
